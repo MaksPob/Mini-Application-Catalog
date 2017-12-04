@@ -1,0 +1,58 @@
+body {
+    background-color: #FFF8B5;
+}
+header {
+    background-color: #000000;
+}
+
+.pInHeader {
+    color: #fff;
+    font-size: 25px;
+}
+.find {
+    color: #000;
+}
+.btn_find {
+    background-color: #C7B4B4;
+    border: none;
+    height: 21px;
+}
+nav {
+    background-color: #FFF59D;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul li {
+    padding: 5px 5px;
+}
+ul li:hover {
+    background-color: #FFEF5F;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+main {
+    border: 1px solid #E4CD00;
+    width: 500px;
+}
+.product {
+    padding: 10px 10px;
+}
+.p_product {
+    font-size: 20px;
+    font-weight: bold;
+}
+.phones, .washers, .computers {
+    display: none;
+}
+.filters {
+    padding: 20px 100px;
+}
+
+.memoryCheck, .priceCheck {
+    height: 20px;
+}
